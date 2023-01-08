@@ -59,7 +59,7 @@ bool counter_face_loop(movement_event_t event, movement_settings_t *settings, vo
                 state->counter_idx=0;//reset counter index
             }
             print_counter(state);
-            beep_counter(state);
+            // beep_counter(state);
             break;
         case EVENT_ALARM_LONG_PRESS:
             state->counter_idx=0; // reset counter index
